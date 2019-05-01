@@ -1,0 +1,28 @@
+(base) edwin100@cn403:~/notebooks/repos/homework-3-4-testing-exceptions-and-coding-style-ebm94$ pylint test_dataframe.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.00/10, +5.00)
+
+
+
+
+
+In dataframe.py, overcame following problems
+dataframe.py:1:0: C0111: Missing module docstring (missing-docstring)
+dataframe.py:5:0: C0111: Missing function docstring (missing-docstring)
+dataframe.py:11:8: R1718: Consider using a set comprehension (consider-using-set-comprehension)
+dataframe.py:17:0: C0111: Missing function docstring (missing-docstring)
+Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+dataframe.py:13:8: R1718: Consider using a set comprehension (consider-using-set-comprehension)
+
+
+Finally got
+
+(base) edwin100@cn403:~/notebooks/repos/homework-3-4-testing-exceptions-and-coding-style-ebm94$ pylint dataframe.py
+************* Module dataframe
+dataframe.py:32:7: E1120: No value for argument 'url' in function call (no-value-for-parameter)
+
+------------------------------------------------------------------
+Your code has been rated at 7.73/10 (previous run: 7.27/10, +0.45)
+
+
